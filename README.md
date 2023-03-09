@@ -21,6 +21,10 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 npm i
 ```
+## Deployed application
+
+Link to deployed application: https://aqueous-sea-04270.herokuapp.com/
+
 ## Screenshot of application
 
 <img width="1486" alt="Screenshot 2023-03-09 at 19 00 12" src="https://user-images.githubusercontent.com/67907083/224128713-e9b94adb-42cd-4d6f-9391-81f8683df3fe.png">
