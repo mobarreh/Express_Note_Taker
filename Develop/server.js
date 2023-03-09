@@ -27,3 +27,13 @@ app.post("/api/notes", (req, res) => {
     fs.writeFileSync("./db/db.json", JSON.stringify(noteStore));
     res.json(noteStore);
 })
+
+app.delete("/api/notes/:id", (req, res) => {
+    let noteStore = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let noteId = (req.params.id).toString();
+    noteStore = noteStore.filter(selected =>{
+        return selected.id != noteId;
+    })
+    fs.writeFileSync("./db/db.json", JSON.stringify(noteStore));
+    res.json(noteStore);
+});
