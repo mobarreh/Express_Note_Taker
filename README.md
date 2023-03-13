@@ -23,7 +23,7 @@ npm i
 ```
 ## Deployed application
 
-Link to deployed application: https://aqueous-sea-04270.herokuapp.com/
+Link to deployed application: (https://hidden-crag-20323.herokuapp.com/)
 
 ## Screenshot of application
 
